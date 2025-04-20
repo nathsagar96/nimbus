@@ -30,8 +30,7 @@ public class GlobalExceptionHandler {
   public Mono<ResponseEntity<ErrorResponse>> handleMissingRequestValueException(
       MissingRequestValueException ex, ServerWebExchange exchange) {
     log.error("Missing request value: {}", ex.getMessage());
-    return buildErrorResponse(
-        ex.getReason(), 400, exchange.getRequest().getPath().value());
+    return buildErrorResponse(ex.getReason(), 400, exchange.getRequest().getPath().value());
   }
 
   @ExceptionHandler(WebExchangeBindException.class)
