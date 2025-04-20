@@ -36,7 +36,7 @@ git clone https://github.com/nathsagar96/weather-now.git
 cd weather-now
 ```
 
-2. Configure OpenWeatherMap API key in `application.yml`:
+2. Configure OpenWeatherMap API key in `application.yaml`:
 
 ```yaml
 openweathermap:
