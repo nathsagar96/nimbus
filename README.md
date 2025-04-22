@@ -1,4 +1,4 @@
-# ⛅ Weather Now
+# ⛅ Nimbus
 
 A reactive Spring Boot application that provides real-time weather information by city name using the OpenWeatherMap
 API.
@@ -32,8 +32,8 @@ API.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/nathsagar96/weather-now.git
-cd weather-now
+git clone https://github.com/nathsagar96/nimbus.git
+cd nimbus
 ```
 
 2. Configure OpenWeatherMap API key in `application.yaml`:

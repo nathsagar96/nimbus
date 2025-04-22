@@ -11,9 +11,9 @@
     </parent>
 
     <groupId>dev.sagar</groupId>
-    <artifactId>weather-now</artifactId>
+    <artifactId>nimbus</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>weather-now</name>
+    <name>nimbus</name>
     <description>Weather API using Spring Boot</description>
 
     <properties>
